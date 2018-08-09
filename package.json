@@ -1,0 +1,36 @@
+{
+  "name": "exchange-token",
+  "version": "0.1.0",
+  "description": "Altblock Exchange ERC20 token.",
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AltBlock/exchange-token.git"
+  },
+  "keywords": [
+    "smart-contract",
+    "token",
+    "erc20",
+    "altblock",
+    "exchange"
+  ],
+  "author": "pagal <bibash1270@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AltBlock/exchange-token/issues"
+  },
+  "homepage": "https://github.com/AltBlock/exchange-token#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "web3": "^0.20.1",
+    "zeppelin-solidity": "1.11.0"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.0.0",
+    "chai-bignumber": "^2.0.0",
+    "truffle-hdwallet-provider": "0.0.6"
+  }
+}
